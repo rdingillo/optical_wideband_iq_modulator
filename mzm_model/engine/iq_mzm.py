@@ -37,9 +37,9 @@ start_time = time.time()
 
 matplotlib.use('Qt5Agg')
 if os.name == 'posix':
-    root = Path('/home/rocco/PycharmProjects/optical-wideband-iq-modulator')
+    root = Path('/home/rocco/PycharmProjects/optical_wideband_iq_modulator')
 elif os.name == 'nt':
-    root = Path('C:/Users/din81017/PycharmProjects/optical-wideband-iq-modulator')
+    root = Path('C:/Users/din81017/PycharmProjects/optical_wideband_iq_modulator')
 input_folder = root/'mzm_model/resources'
 folder_results = root/'mzm_model'/'results'
 

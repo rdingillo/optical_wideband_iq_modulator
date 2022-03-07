@@ -77,7 +77,7 @@ prbs_counter = 50   # number of the first generating polynomials, between 1 and 
 zero_pad = True     # flag to add the last sequence of zeros to have 2^n sequences
 modulation_format = '16qam'
 modulation_format = modulation_format.upper()
-Rs = 32e9  # baud-rate, in Gbaud
+Rs = 96e9  # baud-rate, in Gbaud
 Ts = 1/Rs  # symbol period
 num_signals = 2**poldeg     # number of transmitted signals
 
